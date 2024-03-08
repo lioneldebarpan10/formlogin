@@ -1,0 +1,94 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   min-height:100vh;
+   background-image: url('Animated.webp');
+   background-repeat:no-repeat;
+   background-size:cover;  
+  
+}
+.container {
+   width: 500px;
+   height: 500px;
+   margin: auto;
+   max-width: 100%;
+   overflow: hidden;
+   margin-top: 150px;
+   backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(198, 201, 206, 0.654);
+    border-radius: 15px;
+}
+h2 {
+   text-align:center;
+   font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(2, 2, 49);
+}
+.form {
+   padding:30px 40px;
+}
+.form-control {
+   margin-bottom:10px;
+   padding-bottom:10px;
+   position:relative;
+}
+.form-control label {
+   display:inline-block;
+   margin-bottom: 5px;
+   font-size:1rem;
+   font-weight:bold;
+   font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:rgb(2, 2, 49);
+}
+.form-control input {
+   border:2px solid rgb(142, 141, 141);
+   border-radius:30px;
+   display:block;
+   font-family: "Anta", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   width:100%;
+   padding:10px;
+  
+}
+.form-control i {
+   position:absolute;
+   top:40px;
+   right:10px;
+   visibility: hidden; 
+}
+.form-control small {
+   position:absolute;
+   visibility: hidden;
+   bottom:0;
+   top:0;
+}
+.form button {
+   background-color:transparent;
+   border:2px solid rgb(29, 4, 55);
+   color:rgb(17, 2, 52);
+   display:block;
+   padding:10px;
+   width:100%;
+   font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   border-radius:30px;
+   
+   
+}
+button:hover {
+   cursor: pointer;
+   color:rgb(255, 255, 255);
+   background-color: rgb(2, 2, 38);
+}
